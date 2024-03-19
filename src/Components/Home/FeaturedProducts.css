@@ -1,0 +1,14 @@
+.featured_products{
+	margin: 10px;
+	background-color: rgb(232, 212, 225);
+	border-radius: 10px;
+}
+.featured_products > h2{
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.featured_products_list{
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+}

@@ -6,6 +6,7 @@ import QuantityInput from '../SingleProduct/QuantityInput';
 import removeIcon from '../../assets/remove.png'
 import UserContext from '../../Contexts/UserContext';
 import cartContext from '../../Contexts/CartContext';
+import config from '../../config.json'
 
 import { toast } from 'react-toastify';
 
@@ -37,7 +38,7 @@ const CartPage = () => {
 	return (
 		<section className="align_center cart_page">
 			<div className="align_center user_info">
-				<img src={`http://localhost:5000/profile/${user?.profilePic}`} alt="User Profile" />
+				<img src={`${config.backEndURL}/profile/${user?.profilePic}`} alt="User Profile" />
 				<div>
 					<p className="user_name">{user?.name}</p>
 					<p className="user_email">{user?.email}</p>

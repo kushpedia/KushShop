@@ -54,7 +54,7 @@ const ProductsList = () => {
 	return (
 		<section className="products_list_section">
 			<header className="align_center products_list_header">
-				<h2>PRODUCTS</h2>
+				<h2>Products</h2>
 				<select name="sort" id="" className='products_sorting'>
 				<option value=""> Relevance</option>
 					<option value="price desc"> Price High to Low</option>
